@@ -1,4 +1,4 @@
-# Copyright 2023 Ludovic Rousseau, Tutorat PSA
+# Copyright 2024 Ludovic Rousseau, Tutorat PSA
 # Distribuée sous licence CC BY-NC-ND 4.0 
 # Attribution-NonCommercial-NoDerivatives 4.0 International  
 # https://creativecommons.org/licenses/by-nc-nd/4.0/
@@ -19,7 +19,7 @@ print("S(,,)")
 
 
 print("d[af] (différent de 0):")
-print("d_af(PCO2i,PCO2f,pHi,pHf,[Atf-]+[AHtf],pKa)")
+print("d_af(PCO2i,PCO2f,pHi,pHf,Ctotal,pKa)")
 print("d_af(,,,,,)")
 
 print("(-PT=) DE en mEq/L/upH")
