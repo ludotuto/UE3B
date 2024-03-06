@@ -26,7 +26,7 @@ print("(-PT=) DE en mEq/L/upH")
 print("DE1(Dhco3,phi,phf)")
 print("DE1(,,)")
 print("[Atf-] et [AHtf] en mmol/l avec Ctot tf: ")
-print("Ctf([Atf-]+[AHtf],pH,pKa)")
+print("Ctf(Ctotal,pH,pKa)")
 print("Ctf(,,)")
 
 print("HCO3- en mmol/l: ")
