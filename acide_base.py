@@ -19,8 +19,9 @@ print("S(,,)")
 
 
 print("d[af] (différent de 0):")
-print("d_af(PCO2i,PCO2f,pHi,pHf,Ctotal,pKa)")
+print("d_af(pHi,PCO2i,pHf,PCO2f,Ctotal,pKa)")
 print("d_af(,,,,,)")
+
 
 print("(-PT=) DE en mEq/L/upH")
 print("DE1(Dhco3,phi,phf)")
@@ -59,8 +60,12 @@ def Ctf(ct,pH,pka):
   print("[AHtf]=",ahtf)
   return atf
 
-def d_af(pi,pf,phi,phf,ct,pka):
-  y=-((Ctf(ct,phf,pka)-(Ctf(ct,phi,pka)))+((f(pf,phf))-(f(pi,phi))))
+def d_af(phi,pi,phf,pf,ct,pka):
+  print('etat initial :')
+  KK=Ctf(ct,phi,pka)
+  print('etat final :')
+  LL=Ctf(ct,phf,pka)
+  y=-(((f(pf,phf))-(f(pi,phi)))-KK+LL)
   print("en mmol/L  d[af] =")
   return y
 
