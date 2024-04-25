@@ -74,9 +74,10 @@ def DE1(Dhco3,phi,phf):
   return x
 
 
-def S(DE,phi,phf):
-  z=(-DE*(phf-phi))/((1/(1+10**(6.8-phf)))-(1/(1+10**(6.8-phi))))
+def S(DE, pH_i, pH_f):
+  z = (-DE * (pH_f - pH_i)) / ((1 + 10**(6.8 - pH_f)) - (1 + 10**(6.8 - pH_i)))
   return z
+
 
 def g(h,ph):
   pco2=(h*10**(-ph+6.1))/0.03
