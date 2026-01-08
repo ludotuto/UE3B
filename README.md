@@ -1,7 +1,7 @@
 # UE3B
 Programmes UE3B pour le tutorat  PASS/LAS Sorbonne Université 
 
-Copyright 2024-2025 Ludovic Rousseau, TSSU
+Copyright 2024-2026 Ludovic Rousseau, TSSU
 
 Distribuée sous licence CC BY-NC-ND 4.0 
 
